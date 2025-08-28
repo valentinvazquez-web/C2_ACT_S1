@@ -1,4 +1,4 @@
 # C2_ACT_S1
 Este repositorio será donde se incluyan todas las actividades.
 
-Estamos modificando el README del repositorio
+# Semana 1
