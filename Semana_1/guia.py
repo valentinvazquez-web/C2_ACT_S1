@@ -2,10 +2,10 @@ def saludar(nombre: str)->None:
      print(f"Hola {nombre}")
 
 def operar(a:int, b: int)->int:
-     suma = a + b 
-     resta = a - b
-     multiplicacion = a * b
-     return suma, resta, multiplicacion
+     print(f"La suma da :{(a + b)}")
+     print(f"La resta da :{(a - b)}")
+     print(f"La multiplicacion da :{(a * b)}")
+     
 
 def area_triangulo(a:float, b:float)->float:
      print(f"El area es de :{(a * b)/2}")
@@ -17,5 +17,12 @@ def buscar_mayor(a:int, b: int, c: int)->int:
          return b
      else:
          return c
-print(f"El mayor es:{buscar_mayor}")
+
+def verificar_acceso(a:int)->int:
+     if a >= 18 :
+       return print("Es mayor de edad")
+
+def calcular_edad(a: int)->int:
+    2025 - a
+    return(calcular_edad)
 
