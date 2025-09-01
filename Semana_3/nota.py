@@ -1,15 +1,15 @@
 
 
-total_notas = 0
+
 acumulacion_total_notas = 0
-cantidad_notas = 0
+
 
 promedio_mayor = 0
 alumno_mayor = 0
-cantidad_alumnos = int(input("Ingrese cantidade alumnos:"))
+cantidad_alumnos = int(input("Ingrese cantidad de alumnos:"))
 alumno = 1
 
-while alumno < cantidad_notas:
+while alumno < cantidad_alumnos:
     total_notas = 0
     for examen in range (1,4):
         nota = int(input("Ingresar nota: "))
